@@ -5,7 +5,9 @@
 ### Windows
 
 If running windows, it is required for this lab to run rancher on docker in a linux-based VM.
+
 https://www.virtualbox.org/wiki/Downloads
+
 https://www.vagrantup.com/downloads.html
 
 Use the Vagrant file embedded in this github-project and start a lightweight Ubuntu-based vm with Vagrant.
@@ -33,6 +35,7 @@ curl https://releases.rancher.com/install-docker/1.12.sh | sh
 ### MacOS or Linux
 
 Rancher is compatible with both MacOs and Linux so it works just fine to run the lab natively on your laptop.
+
 You can of course use virtualbox and Vagrant if you prefer. If so, see the instructions for Windows above
 
 ## Install Rancher Agent
@@ -50,6 +53,7 @@ After the container is started and rancher is installed, try access rancher web 
 For simplicity we will add a new host on the same host as the agent. Normally a host is located on a different server.
 
 Click Infrasrtucture -> Hosts -> Add host
+
 Follow the instructions.
 
 ## Add a new stack
